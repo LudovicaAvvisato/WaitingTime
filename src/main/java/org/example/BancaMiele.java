@@ -7,8 +7,7 @@ import java.io.InputStreamReader;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class BancaMiele {
     public static void main(String[] args) {
-
-        BufferedReader Lettore= new BufferedReader(new InputStreamReader(System.in));
-        System.out.println(Lettore);
+        Lettore lettore =new Lettore("Mieli.json");
+        lettore.run();
     }
 }
