@@ -7,7 +7,9 @@ public class Lettore implements Runnable {
 
     @Override
     public void run() {
-        BufferedReader Miele= new BufferedReader(new InputStreamReader("Mieli.json"));
-        System.out.println(Miele);
+//invoca Leggi
     }
+    public void Leggi(){
+    BufferedReader lettore= new BufferedReader(new InputStreamReader("Mieli.json"));
+        System.out.println(lettore);
 }
