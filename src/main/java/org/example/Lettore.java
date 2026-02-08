@@ -27,4 +27,4 @@ public class Lettore implements Runnable {
             System.err.println("Errore nella lettura del file: " + e.getMessage());
         }
     }
-}
+}//
